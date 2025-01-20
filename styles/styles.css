@@ -1,0 +1,118 @@
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Common Tags Section*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.viewport-80{
+    width: 80vw;
+    margin: 0 auto;
+}
+.bg-color{
+    background-color: #FFFFFF;
+}
+/* Header Section */
+header{
+    margin-top: 20px;
+}
+header li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.logo, .navbar, nav, .banner{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    gap: 10px;
+}
+.school-tag{
+    font-size: 2rem;
+}
+nav{
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.navbar{
+    gap: 28px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+#nav-1{ color: orange; 
+ }
+#nav-2{ color: skyblue; 
+ }
+#nav-3{ color: #05D4DF; 
+ }
+#nav-4{ color: #5D58EF ; 
+ }
+.contact-btn{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: 10px 55px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hamburger-menu{
+    display: none;
+}
+
+/* Banner Section */
+.banner{
+    gap: 20px;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.empower{
+    color: orange;
+}
+.vision{
+    color: skyblue;
+}
+.banner-subtitle{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+.enroll-btn{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px 45px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    *{
+        width: 91vw;
+    }
+    .navbar, .contact, .school-tag{
+        display: none;
+    }
+    
+    .hamburger-menu{
+        display: block;
+    }
+}
