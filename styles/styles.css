@@ -71,7 +71,10 @@ nav{
 .hamburger-menu{
     display: none;
 }
-
+.display-flex{
+    display: flex;
+    flex-direction: column;
+}
 /* Banner Section */
 .banner{
     gap: 20px;
@@ -105,6 +108,7 @@ nav{
 /* Main Section Starts */
 .curriculum {
     background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
     
 }
 /* .curriculum{
@@ -197,6 +201,103 @@ nav{
     cursor: pointer;
     margin-bottom: 60px
 }
+
+/* Our Stories Section */
+.our-stories{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.3), #ffffff);
+}
+.our-stories-title{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.stories-container{
+    display: flex;
+    gap: 18.5px;
+    margin: 50px 125px 80px 125px;
+}
+.single{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+}
+.single>img{
+    width: 100%;
+    flex: 1;
+    border-radius: 16px 16px 0 0;
+}
+.text-container{
+    border-radius: 0 0 16px 16px;
+    background-color: #FFFFFF;
+    border-top: none;
+}
+.btn-type{
+    border-radius: 45px;
+    padding: 14px 19px;
+    
+}
+#date-1{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 38px;
+    color: #ffffff;
+    background-color: #3CD8E8;
+}
+
+.story1-title{
+    margin: 58px 35px 48px 35px;
+    /* padding-top: 90px; */
+    font-size: 1.5rem;
+}
+.story-subtitle{
+    margin: 0 65px 35px 35px;
+    color: #666666;
+    font-size: 1rem;
+}
+.quadra{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+    width: 605px;
+}
+#date-2, #date-3, #date-4, #date-5{
+    position: absolute;
+    margin-left: 38px;
+    margin-top: -32px;
+    color: #ffffff;
+}
+#date-2{
+    background-color: rgb(71, 158, 94);
+}
+#date-3{
+    background-color: rgb(65, 185, 65);
+}
+#date-4{
+    background-color: rgb(213, 213, 3);
+}
+#date-5{
+    background-color: rgb(153, 153, 153);
+}
+.story-left-title{
+    margin: 38px 38px 28px 38px ;
+}
+.quadra img{
+    border-radius: 16px 16px 0 0;
+}
+.viewall{
+    margin: 0 auto;
+    text-align: center;
+}
+.view-all-btn{
+    font-size: 20px;
+    padding: 10px 60px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
 @media screen and (max-width: 576px) {
 
     .viewport{
@@ -255,5 +356,42 @@ nav{
     }
     .curri-title{
         margin-top: 40px;
+    }
+    /* Our Stories section in mobile phone */
+    .stories-container{
+        margin: 20px 15px;
+    }
+    .single{
+        display: none;
+    }
+    .quadra{
+        gap: 11px;
+        width: 360px;
+    }
+    .quadra img{
+        width: 100% ;
+    }
+    #date-2, #date-3, #date-4, #date-5{
+        position: absolute;
+        margin-left: 22px;
+        margin-top: -16px;
+        color: #ffffff;
+    }
+    .btn-type{
+        border-radius: 35px;
+        padding: 6px 11px;
+        font-size: 9px;
+    }
+    .story-left-title{
+        margin: 26px 23px 20px 23px;
+        /* padding-top: 90px; */
+        font-size: 0.625rem;
+    }
+    .view-all-btn{
+        font-size: 16px;
+        padding: 2px 37px;
+        background-color: #000000;
+        color: #ffffff;
+        margin-bottom: 40px;
     }
 }
