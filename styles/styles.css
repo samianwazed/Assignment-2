@@ -173,7 +173,7 @@ nav{
     /* background-color: #DEF5FF; */
     background: linear-gradient(to bottom, #F2E8FF, #ffffff 40%);
     box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.05);
-    stroke: #DEF5FF;
+    border: 0.94px solid #f2e8ff
 }
 .read-more-1{
     color: #64C8FF;
@@ -195,6 +195,7 @@ nav{
 }
 .slide-img>img{
     cursor: pointer;
+    margin-bottom: 60px
 }
 @media screen and (max-width: 576px) {
 
@@ -240,5 +241,19 @@ nav{
     .banner-text{
         margin-bottom: 20px;
     }
-
+    /* Standard Curriculum Section */
+    .standard-cards{
+        flex-direction: column;
+        padding: 20px 16px;
+        gap: 12px;
+    }
+    .read-more{
+        margin-bottom: 2rem;
+    }
+    .slide-img{
+        display: none;
+    }
+    .curri-title{
+        margin-top: 40px;
+    }
 }
