@@ -367,6 +367,7 @@ nav{
     .quadra{
         gap: 11px;
         width: 360px;
+        margin: 0 auto;
     }
     .quadra img{
         width: 100% ;
