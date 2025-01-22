@@ -204,9 +204,11 @@ nav{
 
 /* Our Stories Section */
 .our-stories{
-    background-image: url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background: linear-gradient(to top, rgba(254, 163, 1, 0.3), #ffffff);
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.3), #ffffff),url(../assets/bg.png);
+    /* background-image: url(../assets/bg.png); */
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    
 }
 .our-stories-title{
     margin-bottom: 70px;
@@ -297,6 +299,46 @@ nav{
     color: #ffffff;
     border-radius: 12px;
     margin-bottom: 60px;
+    cursor: pointer;
+}
+/* Footer Section Styles */
+.foot-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px 160px 120px;
+    background-color: #01ACFD;
+    color: #FFFFFF;
+}
+.img-container{
+    display: flex;
+    gap: 11px;
+    margin-bottom: 36px;
+    align-items: center;
+}
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.panda{
+    max-width: 80px;
+}
+.footer-subtitle{
+    font-size: 1.2rem;
+}
+
+.about-school-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.nav-bar{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+.keep-in-touch{
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 32px;
 }
 @media screen and (max-width: 576px) {
 
@@ -394,5 +436,32 @@ nav{
         background-color: #000000;
         color: #ffffff;
         margin-bottom: 40px;
+    }
+    /* Footer Section Responsive Part */
+    .foot-section{
+        padding: 65px 20px;
+        flex-direction: column;
+    }
+    .footer-title{
+        font-size: 2.18rem;
+        
+    }
+    .footer-subtitle{
+        font-size: 1rem;
+    }
+    
+    .about-school-title{
+        font-size: 1.25rem;
+        margin-bottom: 27px;
+        margin-top: 32px;
+       }
+    .nav-bar{
+        margin-bottom: 17px;
+        font-size: 1rem;
+    }
+    .keep-in-touch{
+        font-size: 1.375rem;
+        font-weight: bold;
+        margin-bottom: 35px;
     }
 }
