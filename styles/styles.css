@@ -67,6 +67,10 @@ nav{
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
+    transition: transform 0.5s ease
+}
+.contact-btn:hover{
+    transform: scale(1.1);
 }
 .hamburger-menu{
     display: none;
@@ -103,8 +107,11 @@ nav{
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
+    transition: transform 0.5s ease
 }
-
+.enroll-btn:hover{
+    transform: scale(1.1);
+}
 /* Main Section Starts */
 .curriculum {
     background-image: url(../assets/bg.png);
@@ -300,6 +307,10 @@ nav{
     border-radius: 12px;
     margin-bottom: 60px;
     cursor: pointer;
+    transition: transform 0.5s ease
+}
+.view-all-btn:hover{
+    transform: scale(1.1);
 }
 /* Footer Section Styles */
 .foot-section{
