@@ -242,7 +242,7 @@ nav{
 }
 #date-1{
     position: absolute;
-    margin-top: -2rem;
+    margin-top: -26px;
     margin-left: 38px;
     color: #ffffff;
     background-color: #3CD8E8;
@@ -267,7 +267,7 @@ nav{
 #date-2, #date-3, #date-4, #date-5{
     position: absolute;
     margin-left: 38px;
-    margin-top: -32px;
+    margin-top: -26px;
     color: #ffffff;
 }
 #date-2{
@@ -334,6 +334,7 @@ nav{
 .nav-bar{
     margin-bottom: 20px;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 .keep-in-touch{
     font-size: 1.625rem;
